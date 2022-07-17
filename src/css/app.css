@@ -1,0 +1,16 @@
+.app_body {
+  display: grid;
+  grid-template: "leftside main rightside";
+  grid-template-columns: minmax(0, 5fr) minmax(0, 12fr) minmax(0, 6fr);
+  column-gap: 15px;
+  row-gap: 15px;
+}
+/* .left {
+  flex: 0.25;
+}
+.main {
+  flex: 0.5;
+}
+.right {
+  flex: 0.25;
+} */
